@@ -12618,4 +12618,8 @@ fieldset:disabled .btn {
     transition: transform 0.3s ease; /* Adiciona uma transição suave */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
+
+footer{
+  height: 250px;
+}
  
