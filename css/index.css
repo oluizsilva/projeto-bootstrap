@@ -92,7 +92,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  
+
 }
 
 hr {
@@ -411,8 +411,8 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
- -webkit-appearance: button;
-  
+  -webkit-appearance: button;
+
 }
 
 button:not(:disabled),
@@ -473,7 +473,7 @@ legend+* {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance:textfield;
+  -webkit-appearance: textfield;
 
 }
 
@@ -4306,6 +4306,7 @@ fieldset:disabled .btn {
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
+  display: inline;
 }
 
 .navbar-brand:hover,
@@ -4776,7 +4777,7 @@ fieldset:disabled .btn {
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
-  
+
 }
 
 .card>hr {
@@ -12613,13 +12614,12 @@ fieldset:disabled .btn {
   border: none;
 }
 
-.card:hover{
-  transform: scale(1.05); /* Aumenta a escala em 5% quando o mouse passa por cima */
-    transition: transform 0.3s ease; /* Adiciona uma transição suave */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
-footer{
+footer {
   height: 250px;
 }
- 
