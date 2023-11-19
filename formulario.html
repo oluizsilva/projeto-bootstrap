@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulário de Satisfação - Jampa Flowers</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/formulario.css'>
+    <script src='main.js'></script>
+    <link rel="icon" type="image/png" href="./css/imagens/logo (2).png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row mx-0 justify-content-center">
+          <div class="col-md-7 col-lg-5 px-lg-2 col-xl-4 px-xl-0 px-xxl-3">
+            <form
+              method="POST"
+              class="w-100 rounded-1 p-4 border bg-white"
+              action="https://herotofu.com/start"
+            >
+              <label class="d-block mb-4">
+                <span class="form-label d-block">Nome</span>
+                <input
+                  name="name"
+                  type="text"
+                  class="form-control"
+                  placeholder="Digite seu nome"
+                />
+              </label>
+      
+              <label class="d-block mb-4">
+                <span class="form-label d-block">Endereço de E-Mail</span>
+                <input
+                  name="email"
+                  type="email"
+                  class="form-control"
+                  placeholder="email@exemplo.com"
+                />
+              </label>
+      
+              <label class="d-block mb-4">
+                <span class="form-label d-block">Data de Nascimento</span>
+                <input name="birthday" type="date" class="form-control" />
+              </label>
+      
+              <label class="d-block mb-4">
+                <span class="form-label d-block"
+                  >Gênero</span
+                >
+                <select name="present" class="form-select">
+                  <option>Feminino</option>
+                  <option>Masculino</option>
+                  <option>Prefiro não informar</option>
+                </select>
+              </label>
+              
+              <label class="d-block mb-4">
+                <span class="form-label d-block">Mensagem</span>
+                <input
+                  name="name"
+                  type="text"
+                  class="mensagem"
+                  placeholder="Digite a Mensagem"
+                />
+              </label>
+      
+              <div class="mb-3">
+                <button type="button" class="btn btn-primary px-3 rounded-3" onclick="enviarMensagem()">
+                  Enviar Respostas
+                </button>
+              </div>
+
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+            <script>
+              function enviarMensagem() {
+                alert("Mensagem enviada");
+
+                window.location.href="index.html";
+              }
+            </script>
+      
+              <div class="d-block text-end">
+                <div class="small">
+                  by
+                  <a
+                    href="https://herotofu.com"
+                    class="text-dark text-decoration-none"
+                    target="_blank"
+                    >Jampa Flowers</a
+                  >
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    
+</body>
+</html></html>
