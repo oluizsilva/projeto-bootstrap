@@ -34,7 +34,7 @@
                     <li class="nav-item"><a class="nav-link" href="./formulario.html">Formulário</a></li>
                     <li class="nav-item"><a class="nav-link" href="./noticias.html">Notícias</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">Loja</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#!">Todos os Produtos</a></li>
@@ -53,11 +53,13 @@
                         Carrinho
                         <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                     </button>
-                    <button class="btn btn-outline-dark" type="submit">
+                    <a href="./login.html" class="btn btn-outline-dark" id="botaoperfil">
                         <i></i>
-                        <a href= "./login.html">Formulário</a>
-                        <span class="badge text-white ms-1 rounded-pill"> <img src="./css/imagens/icone.png"></span>
-                    </button>
+                        Perfil
+                        <span class="badge text-white ms-1 rounded-pill">
+                            <img src="./css/imagens/icone.png">
+                        </span>
+                    </a>
                 </form>
             </div>
         </div>
@@ -76,7 +78,7 @@
 
     <section class="py-5">
         <div class="container px-4 px-lg-5 mt-5">
-            <h2 id="titulo">Os mais vendidos</h2>
+            <h2 id="titulo" id="maisvendidos">Os mais vendidos</h2>
             <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                 <div class="col mb-5">
                     <div class="card h-100">
